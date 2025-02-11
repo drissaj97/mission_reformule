@@ -1,0 +1,5 @@
+python-pptx
+pandas
+streamlit
+openai
+
