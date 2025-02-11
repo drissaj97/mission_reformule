@@ -5,9 +5,7 @@ import pandas as pd
 import streamlit as st
 from io import BytesIO
 
-# Configuration OpenAI (Remplacez par votre clé API)
-openai.api_key = "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"
-
+openai.api_key = st.secrets["openai_api_key"]
 
 def extract_text_from_pptx(file):
     """
